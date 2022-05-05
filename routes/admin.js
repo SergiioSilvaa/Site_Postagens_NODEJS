@@ -107,5 +107,9 @@ router.post("/categorias/nova", (req,res) =>{
         })
     })
 
+    router.post("/postagens/nova", (req,res)=>{
+        
+    })
+
 
 module.exports = router; //Linha usada para exportar este arquivo para outros. Usada sempre no final do codigo (Ultima linha).
